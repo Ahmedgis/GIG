@@ -5,6 +5,10 @@
 <script src="aframe.min.js"></script>
 <!-- include ar.js for A-Frame -->
 <script src="aframe-ar.js"></script>
+<!-- include A-Frame Extras -->
+<script src="aframe-extras.min.js"></script>
+
+
 <body style='margin : 0px; overflow: hidden;'>
 
   <a-scene embedded arjs='sourceType: webcam;'>
@@ -34,7 +38,8 @@
 	<!--<a-entity id="pyramid" gltf-model="#pyramid"></a-entity>-->
 	<!-- <a-entity id="pyramid" gltf-model="#pyramid" scale="0.1 0.1 0.1"></a-entity> -->
   <!--<a-entity gltf-model="#pyramid"></a-entity>-->
-  <a-gltf-model src="#pyramid"></a-gltf-model>
+  <!-- <a-gltf-model src="#pyramid"></a-gltf-model> -->
+  <a-gltf-model-legacy src="#pyramid"></a-gltf-model-legacy>
 
 
 	<a-text value="Powered by Globe Imagine!"></a-text>
