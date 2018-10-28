@@ -17,21 +17,22 @@
 	
 		<!-- define your markers -->
     <a-marker type='pattern' url='gig.patt'>
-      <a-box position='0 0.5 0' material='color: red;'></a-box>
+      <!--<a-box position='0 0.5 0' material='color: red;'></a-box>-->
+	  	<!-- define your gltf asset -->
+		<a-assets>
+		  <a-asset-item id="pyramid" src="CHAHIN_PYRAMID.gltf"></a-asset-item>
+		</a-assets>
+		<!-- use your gltf model -->
+		<a-entity gltf-model="##pyramid"></a-entity>
+		
+		<a-text value="Powered by Globe Imagine!"></a-text>
     </a-marker>
 	
 	<!-- define a simple camera -->
 	<a-entity camera></a-entity>
 
 	
-	<!-- define your gltf asset -->
-	<a-assets>
-	  <a-asset-item id="pyramid" src="CHAHIN_PYRAMID.gltf"></a-asset-item>
-	</a-assets>
-	<!-- use your gltf model -->
-	<a-entity gltf-model="##pyramid"></a-entity>
-	
-	<a-text value="Powered by Globe Imagine!"></a-text>
+
 
   </a-scene>
   
