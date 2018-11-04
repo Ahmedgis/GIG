@@ -1,19 +1,19 @@
 {
-	"accessors" :
+	"accessors" : 
 	[
 		{
 			"bufferView" : 2,
 			"byteOffset" : 0,
 			"componentType" : 5126,
 			"count" : 966,
-			"max" :
+			"max" : 
 			[
 				1,
 				1,
 				1,
 				1
 			],
-			"min" :
+			"min" : 
 			[
 				0.05637409910559654,
 				0.1011451631784439,
@@ -28,11 +28,11 @@
 			"byteOffset" : 0,
 			"componentType" : 5123,
 			"count" : 1452,
-			"max" :
+			"max" : 
 			[
 				965
 			],
-			"min" :
+			"min" : 
 			[
 				0
 			],
@@ -44,13 +44,13 @@
 			"byteOffset" : 11592,
 			"componentType" : 5126,
 			"count" : 966,
-			"max" :
+			"max" : 
 			[
 				0.9997284,
 				0.9973503,
 				0.9944971
 			],
-			"min" :
+			"min" : 
 			[
 				-0.9997284,
 				-0.9936138,
@@ -64,13 +64,13 @@
 			"byteOffset" : 0,
 			"componentType" : 5126,
 			"count" : 966,
-			"max" :
+			"max" : 
 			[
 				-0.002701065,
 				2.475619,
 				-0.1963446
 			],
-			"min" :
+			"min" : 
 			[
 				-0.3761385,
 				1.987097,
@@ -80,13 +80,13 @@
 			"type" : "VEC3"
 		}
 	],
-	"asset" :
+	"asset" : 
 	{
 		"copyright" : "Unknown",
 		"generator" : "glTF 1-to-2 Upgrader for Google Blocks",
 		"version" : "2.0"
 	},
-	"bufferViews" :
+	"bufferViews" : 
 	[
 		{
 			"buffer" : 0,
@@ -112,23 +112,23 @@
 			"target" : 34962
 		}
 	],
-	"buffers" :
+	"buffers" : 
 	[
 		{
 			"byteLength" : 41544,
-			"name" : "computer",
-			"uri" : "computer.bin"
+			"name" : "model",
+			"uri" : "model.bin"
 		}
 	],
-	"materials" :
+	"materials" : 
 	[
 		{
 			"alphaMode" : "OPAQUE",
 			"doubleSided" : false,
 			"name" : "BlocksPaper",
-			"pbrMetallicRoughness" :
+			"pbrMetallicRoughness" : 
 			{
-				"baseColorFactor" :
+				"baseColorFactor" : 
 				[
 					1,
 					1,
@@ -143,9 +143,9 @@
 			"alphaMode" : "BLEND",
 			"doubleSided" : false,
 			"name" : "BlocksGlass",
-			"pbrMetallicRoughness" :
+			"pbrMetallicRoughness" : 
 			{
-				"baseColorFactor" :
+				"baseColorFactor" : 
 				[
 					0.2,
 					0.2,
@@ -160,9 +160,9 @@
 			"alphaMode" : "OPAQUE",
 			"doubleSided" : true,
 			"name" : "BlocksGem",
-			"pbrMetallicRoughness" :
+			"pbrMetallicRoughness" : 
 			{
-				"baseColorFactor" :
+				"baseColorFactor" : 
 				[
 					1,
 					0.4,
@@ -174,14 +174,14 @@
 			}
 		}
 	],
-	"meshes" :
+	"meshes" : 
 	[
 		{
 			"name" : "mesh_m0-PolyPaper21_-128288",
-			"primitives" :
+			"primitives" : 
 			[
 				{
-					"attributes" :
+					"attributes" : 
 					{
 						"COLOR_0" : 0,
 						"NORMAL" : 2,
@@ -194,10 +194,10 @@
 			]
 		}
 	],
-	"nodes" :
+	"nodes" : 
 	[
 		{
-			"matrix" :
+			"matrix" : 
 			[
 				1,
 				0,
@@ -221,12 +221,12 @@
 		}
 	],
 	"scene" : 0,
-	"scenes" :
+	"scenes" : 
 	[
 		{
 			"extras" : {},
 			"name" : "defaultScene",
-			"nodes" :
+			"nodes" : 
 			[
 				0
 			]
